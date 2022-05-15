@@ -1,0 +1,1376 @@
+fileFormatVersion: 2
+guid: 7254017b7d1f641a4add1fa4023124f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nuevas texturas_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de92c9a7eab9643fa8cdb11ea114c0e5
+      internalID: -469193305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefe68b7ccdf04317b542f265cdc4ce5
+      internalID: -1419891928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf510ff19ca4f41af0ddb22b4c96cf
+      internalID: 1366641887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef57ccb45e5439b9c99e7351f679d3
+      internalID: 1382897694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3558f81d8ae449b8995f584380385d9
+      internalID: 1517633833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_5
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8358efdd638c64d2ea44fe7399a26734
+      internalID: 2108864449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa777efdf51f54524abc66a3be729e2e
+      internalID: 662592434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_7
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6599570d68c42eca622cf98d3782b5
+      internalID: 855931137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4684e33fe333644578a201eafd9c6c9f
+      internalID: -1562683586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_9
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1044
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29fa5bd74d62489d99bea60990f81a0
+      internalID: -578313684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 920
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6fbc5525a2f419ebe0b18ab7f7a239
+      internalID: 2022748081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 920
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121970cb2330e4985847f461c4c2263e
+      internalID: 1295135698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 920
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3172b6460f94d94ac197afb7f1517e
+      internalID: -318590245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 920
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a5cdf778854427b958920fa6f3206b
+      internalID: -952513484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 780
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e983f3f8f074b9db838232c9e9c5ca
+      internalID: -917185427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 776
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53fd8ab8af334c718e3adf918ed13fd
+      internalID: -1536259030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 776
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfb783b8dacc43c0b6aa5abdcbdf6aa
+      internalID: -500177843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 636
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c94c02f78804d07b1fdd09703e4354
+      internalID: -225628489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_18
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 636
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad391da936a60480bba29efc115a1135
+      internalID: -1444192545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 636
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c4d7cf113ef4b8d9ae8312825adede
+      internalID: -352147491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 636
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a720a6df349647a9a33a12bb32daeff
+      internalID: -678160716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_21
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 636
+        width: 104
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e118a8ba2ba1430ab483f328bef9a0b
+      internalID: -1230308459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 636
+        width: 104
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6dff0a5267c468598c10fec0473627
+      internalID: 699071692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_23
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 628
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f496a4887c24f16b7407802fea0101
+      internalID: -789452963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_24
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 628
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b47e04c05cb4e12a5b709aaef69f39
+      internalID: 1898998054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_25
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 636
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1807b29d502f44927af8179a01ac2591
+      internalID: -1644592109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 508
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8aea3088bc24b7096f113f1104850b
+      internalID: -1478469982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_27
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 516
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54cce117e49c4e8e8c95f8ef8556f72
+      internalID: 2027791405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 516
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137eccbd303904bc489eaffdcc7e8a20
+      internalID: -1615886026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 516
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d18ae5546a3242f2a61d04cae8368c5
+      internalID: -1210987920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_30
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 512
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d74f611cbe1a4b7da47a7b99661a280
+      internalID: -648662142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_31
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 512
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab20e891220c4d859e6c22649ae3689
+      internalID: 673157089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_32
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 508
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bdaa5080c35454ba2a79e81bafadb7
+      internalID: -1508479486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_33
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 508
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7075a286803ac4431a0cee956d055597
+      internalID: 1280629064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_34
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 508
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8afe840bd72c4abfab4f7af78346b0e
+      internalID: -1811358804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 376
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e32de54803746cea0191ed3af99973
+      internalID: 833506434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 376
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74c2642cb0a748a7bce065ae8861d46
+      internalID: 1218861662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_37
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 384
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26906506bd19452fb2c0e8cf7013c77
+      internalID: 1830233088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_38
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 384
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b759fc2da4200405d8ec8adace9ca117
+      internalID: 1697098656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_39
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 388
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a4d7bc1ae4b43d3a19a7d856a1d566
+      internalID: -1255056184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_40
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 388
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118a4940d35444c2d9be2d27fe7711c5
+      internalID: -770055626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_41
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 380
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be9c62834514913bbf4fa191377f6d
+      internalID: -1258582256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_42
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 380
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566c4eb0ad41c47e7989dd577644e4c2
+      internalID: 1647857263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_43
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 380
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01af89dcb74df4b9cbd2b5695fcc6e5f
+      internalID: 172151042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f9eb9b9fd374866a2e17e6eda65f4f
+      internalID: 68730642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_45
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 244
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c475f0cdf8c41d99a24a86d8d4a465
+      internalID: -829992400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_46
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 252
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b39e35bf84f4578ba494bf7ff6ec17
+      internalID: 101406244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_47
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 252
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03b94b08d796448b9062d0f811d7123
+      internalID: -1165715407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_48
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 248
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53448c4fd9cf446ab5a09ff16bd017f
+      internalID: 1901073896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_49
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 248
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca80859fdb1614d349b95a7f8fbaefa0
+      internalID: -1451588035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_50
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 244
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62c959784c994493ad093d137689eed
+      internalID: 1204378194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_51
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 248
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500d6289885bb46cca1f3237d1adcca8
+      internalID: 1198597464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_52
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 248
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9d1de99b26a49f1ba8522052fd9645
+      internalID: -2023604129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3bc53b173b145a881583f14476973a
+      internalID: 2132851750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676848ec6b20a41bc93abb1017f1c884
+      internalID: 1354910165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_55
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 120
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcfe3f7497e14a49b55e6c97a3bdaea
+      internalID: 1491119544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nuevas texturas_56
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 120
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1168e1897cf4121b13bde918884333
+      internalID: 1610340224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nuevas texturas_40: -770055626
+      Nuevas texturas_48: 1901073896
+      Nuevas texturas_34: -1811358804
+      Nuevas texturas_3: 1382897694
+      Nuevas texturas_22: 699071692
+      Nuevas texturas_12: -318590245
+      Nuevas texturas_27: 2027791405
+      Nuevas texturas_30: -648662142
+      Nuevas texturas_36: 1218861662
+      Nuevas texturas_16: -500177843
+      Nuevas texturas_39: -1255056184
+      Nuevas texturas_18: -1444192545
+      Nuevas texturas_29: -1210987920
+      Nuevas texturas_2: 1366641887
+      Nuevas texturas_19: -352147491
+      Nuevas texturas_1: -1419891928
+      Nuevas texturas_21: -1230308459
+      Nuevas texturas_41: -1258582256
+      Nuevas texturas_49: -1451588035
+      Nuevas texturas_11: 1295135698
+      Nuevas texturas_23: -789452963
+      Nuevas texturas_6: 662592434
+      Nuevas texturas_51: 1198597464
+      Nuevas texturas_35: 833506434
+      Nuevas texturas_44: 68730642
+      Nuevas texturas_50: 1204378194
+      Nuevas texturas_24: 1898998054
+      Nuevas texturas_46: 101406244
+      Nuevas texturas_9: -578313684
+      Nuevas texturas_17: -225628489
+      Nuevas texturas_26: -1478469982
+      Nuevas texturas_4: 1517633833
+      Nuevas texturas_45: -829992400
+      Nuevas texturas_38: 1697098656
+      Nuevas texturas_56: 1610340224
+      Nuevas texturas_28: -1615886026
+      Nuevas texturas_10: 2022748081
+      Nuevas texturas_13: -952513484
+      Nuevas texturas_20: -678160716
+      Nuevas texturas_53: 2132851750
+      Nuevas texturas_55: 1491119544
+      Nuevas texturas_37: 1830233088
+      Nuevas texturas_5: 2108864449
+      Nuevas texturas_15: -1536259030
+      Nuevas texturas_47: -1165715407
+      Nuevas texturas_25: -1644592109
+      Nuevas texturas_31: 673157089
+      Nuevas texturas_32: -1508479486
+      Nuevas texturas_14: -917185427
+      Nuevas texturas_8: -1562683586
+      Nuevas texturas_52: -2023604129
+      Nuevas texturas_0: -469193305
+      Nuevas texturas_43: 172151042
+      Nuevas texturas_33: 1280629064
+      Nuevas texturas_54: 1354910165
+      Nuevas texturas_7: 855931137
+      Nuevas texturas_42: 1647857263
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

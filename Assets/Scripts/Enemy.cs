@@ -9,18 +9,26 @@ public class Enemy : MonoBehaviour
     private float minDistance = 5.0f;
     private bool targetCollision = false;
     private float speed = 2.0f;
-    private float thrust = 2.0f;
+    private float thrust = 1.5f;
+    public int health = 5;
+    private int hitStrength = 25;
+
+    public Sprite deathSprite;
+    public Sprite[] sprites;
+
+    private bool isDead = false;
 
     void Start()
     {
-
+      int rnd = Random.Range(0, sprites.Length);
+      GetComponent<SpriteRenderer>().sprite = sprites[rnd];
     }
 
     // Update is called once per frame
     void Update()
     {
         range=Vector2.Distance(transform.position, target.position);
-        if(range < minDistance)
+        if(range < minDistance && !isDead)
         {
           if (!targetCollision)
           {
@@ -36,7 +44,7 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-      if (collision.gameObject.CompareTag("Player"))
+      if (collision.gameObject.CompareTag("Player") && !targetCollision)
       {
         Vector3 contactPoint = collision.contacts[0].point;
         Vector3 center = collision.collider.bounds.center;
@@ -52,7 +60,7 @@ public class Enemy : MonoBehaviour
         if(left) GetComponent<Rigidbody2D>().AddForce(-transform.right * thrust, ForceMode2D.Impulse);
         if(top) GetComponent<Rigidbody2D>().AddForce(transform.up * thrust, ForceMode2D.Impulse);
         if(bottom) GetComponent<Rigidbody2D>().AddForce(-transform.up * thrust, ForceMode2D.Impulse);
-        Invoke("FalseCollision", 0.25f);
+        Invoke("FalseCollision", 0.5f);
       }
     }
 
@@ -60,5 +68,34 @@ public class Enemy : MonoBehaviour
     {
       targetCollision = false;
       GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+    }
+
+    public void TakeDamage(int amount)
+    {
+      health -= amount;
+      if(health < 0)
+      {
+        isDead = true;
+        GetComponent<SpriteRenderer>().sprite = deathSprite;
+        GetComponent<Collider2D>().enabled = false;
+        Invoke("EnemyDeath", 1.0f);
+      }
+      transform.GetChild(0).gameObject.SetActive(true);
+      Invoke("HideBlood", 0.25f);
+    }
+
+    void HideBlood()
+    {
+      transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    void EnemyDeath()
+    {
+      Destroy(transform.GetChild(0).gameObject);
+      Destroy(gameObject);
+    }
+    public int GetHitStrength()
+    {
+      return hitStrength;
     }
 }

@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Personajes
   - Water
   - UI
   - 
@@ -41,8 +42,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Objects
-    uniqueID: 2013419437
+  - name: Player
+    uniqueID: 3182485171
     locked: 0
   - name: Enemy
     uniqueID: 480789903
@@ -50,6 +51,12 @@ TagManager:
   - name: Weapon
     uniqueID: 4083035537
     locked: 0
-  - name: Player
-    uniqueID: 3182485171
+  - name: Objects
+    uniqueID: 2013419437
+    locked: 0
+  - name: Fondo
+    uniqueID: 1176737789
+    locked: 0
+  - name: HUD
+    uniqueID: 2381825781
     locked: 0
