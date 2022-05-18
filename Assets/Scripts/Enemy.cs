@@ -18,10 +18,26 @@ public class Enemy : MonoBehaviour
 
     private bool isDead = false;
 
+    public Animator enemyanimator;
+    public Animator sharkfaceanimator;
+    public Animator EnforcerRangedanimator;
+
     void Start()
     {
       int rnd = Random.Range(0, sprites.Length);
       GetComponent<SpriteRenderer>().sprite = sprites[rnd];
+        if (this.gameObject.tag == "SharkFace")
+        {
+
+        }
+        else if (this.gameObject.tag == "EnforcerRanged")
+        {
+            
+        }
+        else if (this.gameObject.tag == "Enemy")
+        {
+
+        } 
     }
 
     // Update is called once per frame
