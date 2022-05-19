@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
         }
         else if (this.gameObject.tag == "Enemy")
         {
-
+            enemyanimator.SetBool("Idle", true);
         } 
     }
 
