@@ -24,8 +24,8 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-      int rnd = Random.Range(0, sprites.Length);
-      GetComponent<SpriteRenderer>().sprite = sprites[rnd];
+      //int rnd = Random.Range(0, sprites.Length);
+      //GetComponent<SpriteRenderer>().sprite = sprites[rnd];
         if (this.gameObject.tag == "SharkFace")
         {
 
