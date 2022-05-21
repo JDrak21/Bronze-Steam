@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 06c31839bb902404b9ec6b1266bbc35c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites corregidos_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 990
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe5c873cc9d446a4b080fdb7f80bbd7
+      internalID: 275356528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 990
+        width: 132
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab033745a62fe460084bda8b5756397d
+      internalID: -1862522579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 990
+        width: 132
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218f7e69ece8245a5aca4430d092a9b3
+      internalID: -641609168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 780
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c4a53f8dde341b6a0b6429cfd9bfcf
+      internalID: -1917973031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 780
+        width: 132
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e786bc852af417da1870e3e698ba20
+      internalID: 608669957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 780
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1f57adb0182433ea2802b244ebe836
+      internalID: 2069609745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 780
+        width: 132
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5f95ff849c24381886ea3af585b40e
+      internalID: -1419148415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_7
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 780
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c055c68f9c1c4c3290d285cc1eb0b07
+      internalID: -1568915553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_8
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 780
+        width: 132
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a045374302df44b7a6cc5bf66898596
+      internalID: 316553478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_9
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 780
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8e379185a54463d832b38a5fba64fa
+      internalID: -1483622725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 564
+        width: 132
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9797cefb1c59246f897a17cf8bdca40d
+      internalID: 2145142180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 564
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff002dc6a1f6c495e9fb9a4a1fcb4f2a
+      internalID: -225684034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_12
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 564
+        width: 132
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b865c62fd154acf91061de5128c768
+      internalID: 1780605600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_13
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 564
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6aa46d6b8aa445b8d54e72bd027b3e
+      internalID: -785745494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 564
+        width: 132
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b37aec70dea417391b8cbdbb003c7e
+      internalID: -1173742793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_15
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 570
+        width: 132
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22da4e790582a4adc846dbd5889fd6c8
+      internalID: -305658850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 318
+        width: 282
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a54ec07dc7a49fe9bfbcb0ad804178
+      internalID: 1448229391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_17
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 324
+        width: 282
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ed4f9c5a4194f51942879684ff4b3b
+      internalID: 633237497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 456
+        width: 144
+        height: 18
+      alignment: 9
+      pivot: {x: 0.93177456, y: 0.4492035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecb8be2c07ce4fe9987bac9f009d69d
+      internalID: -139990348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 390
+        width: 108
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905b41f56cbf24a368162a16a411e5e7
+      internalID: 740150423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_20
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 402
+        width: 132
+        height: 30
+      alignment: 9
+      pivot: {x: 0.88790524, y: 0.34760946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bfa190780ba49cd96171e123f0bed5
+      internalID: 1728341513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 66
+        width: 282
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafff0262e9884a0494bbfdd1668e02b
+      internalID: 272111032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 66
+        width: 282
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27911846ec08c4fc597d974c368407d1
+      internalID: -194719282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_23
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 258
+        width: 156
+        height: 102
+      alignment: 9
+      pivot: {x: 0.76961535, y: 0.46414334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9863e12176104c7c8bb12dfa71e69aa
+      internalID: 1858314600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_24
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 258
+        width: 156
+        height: 102
+      alignment: 9
+      pivot: {x: 0.7403087, y: 0.46414334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d75e21bf383416a9e4aaeb2e1a2e56
+      internalID: -1929358048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_25
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 150
+        width: 156
+        height: 102
+      alignment: 9
+      pivot: {x: 0.763754, y: 0.46414363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42471e48d14a0412aae12b975732c828
+      internalID: 1216624486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites corregidos_26
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 150
+        width: 156
+        height: 102
+      alignment: 9
+      pivot: {x: 0.74617046, y: 0.47310787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d700805cb5744bbaa4ff9959e46e2e
+      internalID: 1178504701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprites corregidos_4: 608669957
+      Sprites corregidos_13: -785745494
+      Sprites corregidos_14: -1173742793
+      Sprites corregidos_21: 272111032
+      Sprites corregidos_24: -1929358048
+      Sprites corregidos_25: 1216624486
+      Sprites corregidos_2: -641609168
+      Sprites corregidos_15: -305658850
+      Sprites corregidos_11: -225684034
+      Sprites corregidos_17: 633237497
+      Sprites corregidos_22: -194719282
+      Sprites corregidos_20: 1728341513
+      Sprites corregidos_8: 316553478
+      Sprites corregidos_5: 2069609745
+      Sprites corregidos_9: -1483622725
+      Sprites corregidos_26: 1178504701
+      Sprites corregidos_19: 740150423
+      Sprites corregidos_0: 275356528
+      Sprites corregidos_23: 1858314600
+      Sprites corregidos_16: 1448229391
+      Sprites corregidos_3: -1917973031
+      Sprites corregidos_12: 1780605600
+      Sprites corregidos_7: -1568915553
+      Sprites corregidos_1: -1862522579
+      Sprites corregidos_6: -1419148415
+      Sprites corregidos_18: -139990348
+      Sprites corregidos_10: 2145142180
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
