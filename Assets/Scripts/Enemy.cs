@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     public Transform target;
     private float minDistance = 5.0f;
     private bool targetCollision = false;
-    private float speed = 2.0f;
+    public float speed = 2.0f;
     private float thrust = 1.5f;
     public int health = 5;
     private int hitStrength = 25;
@@ -28,15 +28,16 @@ public class Enemy : MonoBehaviour
       //GetComponent<SpriteRenderer>().sprite = sprites[rnd];
         if (this.gameObject.tag == "SharkFace")
         {
-
+            sharkfaceanimator.SetBool("Idle", true);
         }
         else if (this.gameObject.tag == "EnforcerRanged")
         {
-            
+            EnforcerRangedanimator.SetBool("Idle", true);
         }
         else if (this.gameObject.tag == "Enemy")
         {
             enemyanimator.SetBool("Idle", true);
+            enemyanimator.SetBool("Attack", false);
         } 
     }
 
@@ -44,6 +45,19 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         range=Vector2.Distance(transform.position, target.position);
+        Debug.Log("Distancia enemigo básico" + range);
+        if(range > 0.86f || range < 0.92f)
+        {
+            enemyanimator.SetBool("Idle", false);
+            enemyanimator.SetBool("Attack", true);
+           
+        }
+        else
+        {
+            enemyanimator.SetBool("Idle", true);
+            enemyanimator.SetBool("Attack", false);
+        }
+        
         if(range < minDistance && !isDead)
         {
           if (!targetCollision)
