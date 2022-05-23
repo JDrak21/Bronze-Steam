@@ -422,13 +422,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 354387793}
-  speed: 2
+  minDistance: 5
+  speed: 0.5
   health: 5
   deathSprite: {fileID: -1501793755, guid: 548326a095243425f90c641db7940835, type: 3}
   sprites: []
   enemyanimator: {fileID: 1024555435}
   sharkfaceanimator: {fileID: 170646218}
   EnforcerRangedanimator: {fileID: 1217841507}
+  magnitudEnemy: 0
 --- !u!4 &170646223
 Transform:
   m_ObjectHideFlags: 0
@@ -1590,7 +1592,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354387791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.875, y: -14.67, z: 0}
+  m_LocalPosition: {x: -1.875, y: -7.52, z: 0}
   m_LocalScale: {x: 0.23, y: 0.23, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2684,13 +2686,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 354387793}
-  speed: 1
+  minDistance: 5
+  speed: 0.5
   health: 5
   deathSprite: {fileID: -1501793755, guid: 548326a095243425f90c641db7940835, type: 3}
   sprites: []
   enemyanimator: {fileID: 1024555435}
   sharkfaceanimator: {fileID: 170646218}
   EnforcerRangedanimator: {fileID: 1217841507}
+  magnitudEnemy: 0
 --- !u!95 &1024555435
 Animator:
   serializedVersion: 4
@@ -3610,13 +3614,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 354387793}
-  speed: 2
+  minDistance: 5
+  speed: 0.5
   health: 5
   deathSprite: {fileID: -1501793755, guid: 548326a095243425f90c641db7940835, type: 3}
   sprites: []
   enemyanimator: {fileID: 1024555435}
   sharkfaceanimator: {fileID: 170646218}
   EnforcerRangedanimator: {fileID: 1217841507}
+  magnitudEnemy: 0
 --- !u!4 &1217841512
 Transform:
   m_ObjectHideFlags: 0

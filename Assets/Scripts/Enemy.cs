@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     private float range;
     public Transform target;
-    private float minDistance = 5.0f;
+    public float minDistance = 5.0f;
     private bool targetCollision = false;
     public float speed = 2.0f;
     private float thrust = 1.5f;
@@ -21,6 +21,8 @@ public class Enemy : MonoBehaviour
     public Animator enemyanimator;
     public Animator sharkfaceanimator;
     public Animator EnforcerRangedanimator;
+
+    public float magnitudEnemy;
 
     void Start()
     {
@@ -45,20 +47,86 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         range=Vector2.Distance(transform.position, target.position);
-        Debug.Log("Distancia enemigo básico" + range);
-        if(range > 0.86f || range < 0.92f)
+       
+        Debug.Log("Distancia enemigo básico" +range);
+        if (this.gameObject.tag == "Enemy")
         {
-            enemyanimator.SetBool("Idle", false);
-            enemyanimator.SetBool("Attack", true);
-           
+            //esta es la distancia para caminar
+            if (range >= 0.9f || range < 5f)
+            {
+                enemyanimator.SetBool("Idle", false);
+                enemyanimator.SetBool("Attack", false);
+                enemyanimator.SetBool("Walk", true);
+            }
+            //esta es la distancia para atacar
+            if (range <= 0.6f)
+            {
+                enemyanimator.SetBool("Idle", false);
+                enemyanimator.SetBool("Walk", false);
+                enemyanimator.SetBool("Attack", true);
+
+            }
+            //esta distancia esta fuera del rango del personaje
+            if (range >= 5.01f)
+            {
+                enemyanimator.SetBool("Idle", true);
+                enemyanimator.SetBool("Attack", false);
+                enemyanimator.SetBool("Walk", false);
+            }
         }
-        else
-        {
-            enemyanimator.SetBool("Idle", true);
-            enemyanimator.SetBool("Attack", false);
+       /* if (this.gameObject.tag == "EnforcerRanged") {
+            //esta es la distancia para caminar
+            if (range >= 0.9f || range < 5f)
+            {
+                EnforcerRangedanimator.SetBool("Idle", false);
+                //EnforcerRangedanimator.SetBool("Attack", false);
+                EnforcerRangedanimator.SetBool("Move", true);
+            }
+            //esta es la distancia para atacar
+            if (range <= 0.5f)
+            {
+                EnforcerRangedanimator.SetBool("Idle", false);
+               // EnforcerRangedanimator.SetBool("Walk", true);
+                EnforcerRangedanimator.SetBool("Move", false);
+
+            }
+            //esta distancia esta fuera del rango del personaje
+            if (range >= 5.01f)
+            {
+                EnforcerRangedanimator.SetBool("Idle", true);
+               // EnforcerRangedanimator.SetBool("Attack", false);
+                EnforcerRangedanimator.SetBool("Move", false);
+            }
         }
-        
-        if(range < minDistance && !isDead)
+        if (this.gameObject.tag == "SharkFace") {
+
+            if (range >= 0.9f || range < 5f)
+            {
+                EnforcerRangedanimator.SetBool("Idle", false);
+                //EnforcerRangedanimator.SetBool("Attack", false);
+                EnforcerRangedanimator.SetBool("Move", true);
+               
+            }
+            //esta es la distancia para atacar
+            if (range <= 0.5f)
+            {
+                EnforcerRangedanimator.SetBool("Idle", false);
+                // EnforcerRangedanimator.SetBool("Walk", true);
+                EnforcerRangedanimator.SetBool("Move", false);
+              
+
+            }
+            //esta distancia esta fuera del rango del personaje
+            if (range >= 5.01f)
+            {
+                EnforcerRangedanimator.SetBool("Idle", true);
+                // EnforcerRangedanimator.SetBool("Attack", false);
+                EnforcerRangedanimator.SetBool("Move", false);
+               
+            }
+        }*/
+
+            if (range < minDistance && !isDead)
         {
           if (!targetCollision)
           {
